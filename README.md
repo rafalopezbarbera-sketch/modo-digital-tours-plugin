@@ -1,0 +1,1 @@
+# modo-digital-tours-plugin
