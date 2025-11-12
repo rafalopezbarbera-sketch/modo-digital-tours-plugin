@@ -1,7 +1,7 @@
 // Simple: obtiene eventos y los pinta
 jQuery(document).ready(function($) {
   function getEvents() {
-    $.get(ajaxurl, {action: 'mdt_get_events'}, function(data) {
+    $.get(mdtPlugin.ajaxurl, { action: 'mdt_get_events' }, function(data) {
       $('#mdt-events-app').html(data);
     });
   }
