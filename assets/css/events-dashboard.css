@@ -1,0 +1,8 @@
+#mdt-events-app {
+    background: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+}
+#mdt-events-app table th, #mdt-events-app table td {
+    padding: 6px 12px;
+}
